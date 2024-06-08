@@ -1,0 +1,435 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+
+}
+/** Header  **/
+.main{
+    background-image: url("assets/images/hero.jpg");
+    background-position: center center;
+    position:relative;
+    height:97vh;
+    background-size: cover;
+}
+.box
+{
+    background-color: black;
+     position: relative;
+    height:97vh;
+    opacity:0.7;
+    
+    
+
+}
+/** Nav bar**/
+.nav-bar
+{
+    position:absolute;
+    top: 24px;
+    left: 160px;
+    height: 48px;
+    width: 80vw;
+    display: flex;
+    justify-content:space-between
+    
+}
+.image
+{
+   width: 40vw;
+   opacity: 0.9;
+}
+.image img
+{
+    height: 2.5rem;
+
+}
+.sign-box
+{
+    height: 32px;
+}
+.sign-box button
+{    
+    font-weight: 530;
+    color: white;
+    border-radius: 4px;
+    height: 32px;
+    text-align: center;
+    margin-right:1rem;
+    display: inline-block;
+}
+.btn1
+{   
+    display: border;
+    width:130px;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right:  10px;
+    border:1px solid rgb(119, 119, 119);
+    background-color: rgba(33, 29, 29,0.8);
+}
+.btn2
+{
+    background-color: rgb(235, 17, 17,0.95);
+    width: 77px;
+    padding-top: 3px;
+    border: none;
+    font-size: 14px;
+}
+.btn2:hover
+{  
+    background-color: rgb(187, 14, 14);
+}
+/** Panel1**/
+.panel-1
+{
+position: absolute;
+top:268px;
+left: 153px;
+color:white
+}
+.panel-1 h1
+{
+    font-size: 45px;
+    font-weight: 1000;
+}
+.para1
+{    position:relative;
+    left: 260px;
+    margin-top: 25px;
+    font-size: 1.5rem;
+}
+.para2
+{    position:relative;
+    left: 120px;
+    margin-top: 25px;
+    font-size: 1.3rem;
+}
+.panel-1 input
+{
+    position: relative;
+    left: 148px;
+    background-color: rgba(33, 29, 29,0.7); 
+    border:1px solid rgb(119, 119, 119);
+    height: 55px;
+    width: 25rem;
+    padding-left: 22px;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 545;
+    margin-top: 25px;
+    display: border-box;
+}
+.panel-1 button
+{
+    position: relative;
+    background-color:rgb(235, 17, 17,0.95); 
+    border: none;
+    color: white;
+    display: border-box;
+    border-radius:4px ;
+    font-weight: 545;
+    padding-right: 20px;
+    padding-top:3px ;
+    font-size: 25px;
+    left: 152px;
+    height: 55px;
+    width: 12rem;
+}
+.panel-1 button:hover
+{  
+    background-color: rgb(187, 14, 14);
+}
+/**Main**/
+.com-box
+{    
+    border-top: 8px solid rgb(48, 45, 45);
+    color: white;
+    height: 530px;
+    background-color: black;
+    display: flex;
+}
+.tvplay
+{
+    display: flex;
+    
+}
+.tvplay-box1
+{
+   
+   position: relative;
+   left: 12rem;
+   margin-top: 12rem;
+}
+.tvplay-box1 h1
+{
+    font-size: 41px;
+    font-weight: 900;
+}
+.text1
+{
+    font-size: 23px;
+    margin-top: 18px;
+    font-weight: 400;
+}
+.text2
+{
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.tvplay-box2
+{
+    margin-top: 3rem;
+}
+.tvplay-box2 img
+{
+    position: relative;
+    width: 36rem;
+    left: 13rem;
+    z-index: 10;
+}
+.tvplay-box2 video
+{
+    position: absolute;
+    width: 26rem;
+    margin-top: 91px;
+    right: 17rem;
+}
+
+/*** phone-boxes***/
+.phone
+{
+    display: flex;
+    justify-content:center;
+}
+.phone-img img
+{
+  height:440px;
+
+}
+.phone-img
+{
+    margin-top: 39px;
+    margin-left: -6px;
+}
+.upper-box
+{   
+
+    position:absolute;
+    margin-top: -137px;
+    margin-left: 128px;
+    height: 90px;
+    width: 310px;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 10px;
+    background-color:black;
+    display: flex;
+}
+.download
+{   
+    position: relative;
+    left:21px ;
+    margin-top:29px;
+}
+.phone-img2
+{
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+}
+.phone-img2 img
+{ 
+    height: 72px;
+}
+.loader
+{
+ position: relative;
+ left: 90px;  
+ margin-top: 19px;
+}
+.loader img{
+       height: 46px;
+}
+
+.phone-box2 h1{
+    margin-right: 10px;
+     font-size: 45px;
+     font-weight: 1000;
+}
+.phone-box2 p
+{
+    font-size: 25px;
+}
+.tv-box1{
+    position: relative;
+    left: 169px;
+    margin-top: 190px;
+    
+}
+.tv-image
+{
+    position: absolute;
+    z-index: 1;
+    right: 165px;
+}
+.tv-video
+{
+    position: relative;
+    margin-left: 368px;
+    
+}
+.tv-image img
+{
+    height: 440px;
+    margin-top: 73px;
+}
+.tv-video video
+{
+    height: 210px;
+    margin-top:124px;
+}
+.tv-box1 h1
+{
+     font-size: 2.9rem;
+     font-weight: 900;
+     margin-bottom: 14px;
+}
+.tv-box1 p{
+     margin-top: 8px;
+     font-size:1.5rem;
+}
+.box4 > img
+{      position: relative;
+    left: 191px;
+    height: 424px;
+    margin-top: 50px
+}
+.box4>div
+{
+    position: relative;
+    left: 190px;
+    padding-top: 176px;
+}
+.box4>div>h1{
+
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 14px;
+}
+.box4>div>p{
+    
+    font-size: 1.5rem;
+
+}
+/** Footer**/
+
+.foot1
+{
+
+display: flex;
+flex-direction: column;
+width: 270px;
+position: relative;
+right: 40px;
+margin-top: 109px;
+}
+
+.foot2
+{
+
+display: flex;
+flex-direction: column;
+width: 300px;
+margin-top: 109px;
+}
+.foot3
+{
+display: flex;
+flex-direction: column;
+width: 300px;
+margin-top: 109px;
+}
+.foot4
+{
+display: flex;
+flex-direction: column;
+width: 400px;
+margin-top: 109px;
+}
+.foot1 a
+{
+    margin-top: 20px;
+    color:rgb(175, 158, 158) ;
+}
+.foot2 a
+{
+    margin-top: 20px;
+    color:rgb(175, 158, 158) ;
+
+}
+.foot3 a
+{
+    margin-top: 20px;
+    color:rgb(175, 158, 158) ;
+
+}
+.foot4 a
+{
+    margin-top: 20px;
+    color:rgb(175, 158, 158) ;
+
+}
+.top-text
+{
+    position: relative;
+    left: 207px;
+    margin-top: 82px;
+    color:rgb(175, 158, 158) ;
+}
+.top-text a
+{
+    color:rgb(175, 158, 158) ;
+   
+}
+.foot1 p
+{
+    color:rgb(175, 158, 158) ;
+    margin-top: 25px;
+}
+.foot1>button
+{
+    margin-top: 35px;
+    color: white;
+    height: 34px;
+    font-size: 1rem;
+    font-weight: 550;
+    border-radius: 6px;
+}
+.questions
+{
+    display: block;
+}
+.questions h1{
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 900;
+    font-size: 40px;
+}
+.FAQ
+{
+    position: relative;
+    left: 269px;
+    width:975px;
+    height: 53px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(65, 63, 63) ;
+}
+.FAQ p
+{
+padding-left: 20px;
+padding-top: 20px;
+font-size: 22px;
+}
